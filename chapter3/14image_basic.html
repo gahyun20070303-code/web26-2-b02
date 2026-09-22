@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>14image_basic</title>
+</head>
+<body>
+    <img src="Penguins.jpg" alt="펭귄" width="300">
+    <img src="Nothing" alt="이미지 없음" width="300">
+
+    <img src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FbvX5Sx%2Fbtsv7l7ZY10%2FEwxTknZedyvUg96ck740hK%2Fimg.jpg">
+<!--https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https:%2F%2Fblog.kakaocdn.net%2Fdn%2FbvX5Sx%2Fbtsv7l7ZY10%2FEwxTknZedyvUg96ck740hK%2Fimg.jpg-->
+
+    <h2>음악 삼입하기</h2>
+    <audio src="kalimba.mp3" controls="controls"></audio>
+
+    <h2>웹 브라우저 제약이 없도록 음악 삽입</h2>
+    <audio controls>
+        <source src="kalimba.mp3" type="audio/mp3">
+        <source src="kalimba.ogg" type="audio/ogg">
+    </audio>
+
+    <h2>동영상 삽입하기</h2>
+    <video controls="controls">
+        <source src="Wildlife.mp4" type="video/mp4">
+        <source src="Wildlife.ogg" type="video/ogg">
+    </video>
+
+    <h2>18동영상 불러오는 동안 다른 이미지 보여주기</h2>
+    <video controls="controls" poster="horse.jpg">
+        <source src="Wildlife.mp4" type="video/mp4">
+        <source src="Wildlife.ogg" type="video/ogg">
+     
+     
+</body>
+</html>
